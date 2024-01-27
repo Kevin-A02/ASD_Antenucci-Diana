@@ -38,5 +38,5 @@ python main.py
 - **EXIT**: Chiude lo script.
 
 ## Note
-- I primi 1500 commit vengono considerati vuoti.
-- I commit che non utilizzano groovy verranno saltati
+- I primi 1500 commit vengono considerati vuoti perchè assenti di codice Java.
+- I commit che non utilizzano gradle vengono saltati

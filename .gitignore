@@ -1,0 +1,14 @@
+.idea/
+
+/groovy-master/
+/results/
+/FINAL-RESULTS/
+
+/java.tar.gz
+/jdk-8/
+/jdk-9/
+/jdk-11/
+/jdk-16/
+
+/spotbugs.zip
+/spotbugs-4.8.3/

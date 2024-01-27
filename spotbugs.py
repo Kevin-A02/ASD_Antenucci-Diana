@@ -8,6 +8,7 @@ def check_gradlew():
     if not os.path.exists(GRADLEW_PATH):
         print(f"Can't build this version of groovy due to missing gradlew")
         return False
+    return True
 
 
 def check_plugin():
