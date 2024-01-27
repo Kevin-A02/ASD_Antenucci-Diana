@@ -125,9 +125,9 @@ def analyze():
         print("No bug found, maybe an error occured during the builds")
     else:
         print(f"TOTAL BUGS IN COMMITS {start_from}-{end_to} FOR CATEGORY:\n")
-        print(row for row in bug_categories_counter)
+        print(bug_categories_counter)
         print(f"\nTOTAL BUGS IN COMMITS {start_from}-{end_to} FOR FILE:\n")
-        print(row for row in file_bug_count)
+        print(file_bug_count)
 
 
 def see_results():
